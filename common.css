@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?sfkhc0');
+    src:  url('fonts/icomoon.eot?sfkhc0#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?sfkhc0') format('truetype'),
+      url('fonts/icomoon.woff?sfkhc0') format('woff'),
+      url('fonts/icomoon.svg?sfkhc0#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.shortcut{
+    height: 30px;
+    background-color: rgb(243, 242, 242);
+    color: rgb(104, 104, 104);
+    font-size: 10px;
+}
+.left{
+    display: inline-block;
+    margin-left: 10%;
+}
+.left li{
+    line-height: 30px;
+    list-style: none;
+    display: inline-block;
+}
+.left a{
+    display: inline-block;
+    margin-right: 5px;
+    color:  rgb(104, 104, 104);
+    text-decoration: none;
+
+}
+.left a:hover{
+    color: rgb(221, 27, 27);
+}
+ .left .regist{
+    color: rgb(221, 27, 27);
+}
+.right{
+   float: right;
+   margin-right: 10%;
+}
+.right li{
+    line-height: 30px;
+    list-style: none;
+    display: inline-block;
+}
+.right a{
+    display: inline-block;
+    margin-left: 14px;
+    color:  rgb(104, 104, 104);
+    text-decoration: none;
+    font-family: "icomoon";
+}
+.right p{
+    display: inline-block;
+    margin:0 0 0 8px;
+    color:  rgb(104, 104, 104);
+    font-family: "icomoon";
+}
+.right a:hover{
+    color: rgb(221, 27, 27);
+}
+.right em{
+    display: inline-block;
+    margin-left: 12px;
+    font-style: normal;
+    color: rgb(71, 70, 70);
+    vertical-align: baseline;
+}
+.header{
+    height: 130px;
+    line-height: 130px;
+    width: 80%;
+    margin:  auto;
+}
+.hl{
+    float: left;
+    width: 230px;
+    height: 130px;
+
+}
+.hl a{
+    display: inline-block;
+    width: 230px;
+    height: 130px;
+   background: url(images/pin-logo.png) no-repeat;
+   font-size: 0;
+}
+
+.hm{
+    float: left;
+    width: 560px;
+    height: 130px;
+    line-height: 130px;
+    margin-left: 100px;
+
+}
+.search{
+    width: 530px;
+    height: 35px;
+    margin-top: 35px;
+    border: 2px solid rgb(221, 27, 27);
+}
+.search input{
+    color: rgb(184, 183, 183);
+    border: 0;
+    height: 31px;
+    width: 400px;
+    line-height: 31px;
+    float: left;
+    margin-left: 10px;
+    outline: 0;
+}
+input::-webkit-search-cancel-button{
+    display: none;
+ }
+ .search .searchbutton{
+   float: right;
+    width: 80px;
+    height: 32px;
+    margin: -1px -1px 0 0;
+    background-color: rgb(221, 27, 27);
+    border: solid rgb(221, 27, 27) 1px;
+    color: white;
+}
+.freq-words{
+    width: 100%;
+    height: 35px;
+    margin-top: 0;
+
+}
+.freq-words ul{
+    line-height: 30px;
+}
+.freq-words li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+
+}
+.freq-words a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(104, 104, 104) ;
+}
+.freq-words a:hover{
+    color: rgb(189, 45, 45);
+}
+.freq-words .one{
+    color: rgb(189, 45, 45);
+}
+.hr{
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+    width: 150px;
+    height: 35px;
+    margin-top: 35px;
+}
+.hr a{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    color: rgb(104, 104, 104) ;
+    background-color: rgb(241, 240, 240);
+    font-size: 13px;
+    border: solid 1px rgb(209, 209, 209);
+
+}
+.hr p{
+    display: inline-block;
+    font-family: "icomoon";
+    color: rgb(104, 104, 104) ;
+    margin:0 10px;
+}
+.hr .shopcar{
+    color: rgb(189, 45, 45);
+    margin-left: 20px;
+}
+ .hr .hot-words{
+    position: absolute;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding-left: 5px;
+    border-radius: 8px 8px 8px 0;
+    top:-5px;
+    right: 12px;
+    background-color:  rgb(216, 25, 25);
+    color: white;
+    line-height: 15px;
+    font-size: 12px;
+}
+.nav{
+    width: 100%;
+   margin-top: 15px;
+    border-bottom: 2px solid rgb(221, 27, 27) ;
+}
+.nav ul{
+    margin-left: 10%;
+}
+.nav .all{
+  display: inline-block;
+  width: 230px;
+  height: 40px;
+  line-height: 35px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(221, 27, 27);
+  margin-right: 25px;
+}
+.nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 35px;
+    color:  rgb(104, 104, 104) ;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    
+}
+.left-menu{
+    float: left;
+ width: 230px;
+ height: 495px;
+ background-color: rgb(221, 27, 27);
+ border-top:solid 1px white;
+ padding-top: 15px;
+}
+.left-menu li{
+    display: inline-block;
+    
+    width: 230px;
+    height: 45px;
+    list-style: none;
+}
+.left-menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+    margin: 0 0 20px 25px;
+}
+.left-menu li:hover{
+    background-color: rgb(231, 231, 231);
+    color:  rgb(221, 27, 27);
+}
+.left-menu a:hover{
+    color:  rgb(221, 27, 27);
+}
+.left-menu li::after{
+    float: right;
+    margin-top: 15px;
+    content: "";
+    top: 0;
+    width: 30px;
+    font-family: "icomoon";
+    color: white;
+
+}
+
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(243, 240, 240);
+    margin-bottom: 0;
+    padding: 30px 0;
+}
+.mod_service{
+    width: 80%;
+    height: 100px;
+    margin:20px auto;
+    border-bottom: solid 1px rgb(150, 150, 150) ;
+}
+.mod_service li{
+    width: 16%;
+    display: inline-block;
+    list-style: none;
+    font-family: "icomoon";
+    margin: 0 50px;
+}
+.mod_service h4{
+    display: inline-block;
+    color: rgb(88, 87, 87);
+    margin-left: 10px;
+}
+.mod_service p{
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(134, 134, 134);
+   margin-left: 44px;
+    
+
+}
+.mod_service i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-style: normal;
+    background-color: rgb(221, 27, 27);
+    border-radius: 50%;
+    text-align: center;
+}
+.mod_help{
+    width: 80%;
+    height: 180px;
+    padding-top: 15px;
+    margin: auto;
+    border-bottom: solid 1px rgb(150, 150, 150) ;
+}
+.mod_help table{
+   display: inline-block;
+    width: 75%;
+    height: 150px;
+}
+.mod_help th{
+    color: rgb(88, 87, 87);
+}
+.mod_help td{
+    width: 225px;
+    height: 23px;
+    color: rgb(134, 134, 134);
+    font-size: 12px;
+    text-align: center;
+}
+.QR-code{
+    float: right;
+    margin-right: 140px;
+    text-align: center;
+}
+.QR-code h4{
+     color: rgb(88, 87, 87);
+}
+.QR-code p{
+    font-size: 14px;
+    color: rgb(88, 87, 87);
+}
+.mod_copyright{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color:rgb(134, 134, 134); 
+}
+.mod_copyright a{
+    text-decoration: none;
+    font-size: 12px;
+    color:rgb(134, 134, 134);
+}
+.mod_copyright em{
+    font-style: normal;
+}

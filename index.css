@@ -1,0 +1,291 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: inline-block;
+    width:78%;
+    height: 483px;
+   margin: 12px 0 0 12px;
+}
+
+.pic{
+    position: relative;
+    float: left;
+    width:660px;
+    height: 483px;
+    overflow: hidden;
+}
+.pic a{
+    width: 50px;
+    height: 70px;
+    border-radius: 20px;
+    transform: translateY(-50%);
+}
+.pic a img{
+    width: 100%;
+    height: 100%;
+}
+.last {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 3;
+    border-radius: 0 20px 20px 0;
+}
+.next {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 3;
+    border-radius: 20px 0 0 20px;
+}
+.pic ul{
+    position: absolute;
+    width: 300%;
+    height: 100%;
+}
+.pic li{
+    float: left;
+    list-style: none;
+    width: 660px;
+    height: 100%;
+}
+.pic li img{
+    width: 100%;
+    height:100%;
+
+}
+.dots{
+    position: absolute;
+    bottom: 12px;
+   left: 50px;
+    background-color:transparent;
+}
+.dots :first-child{
+    background-color: white;
+}
+.dots li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+  margin-left: 6px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid 1px gainsboro;
+}
+.dots li:hover{
+    background-color: white;
+}
+.tips{
+    float: left;
+    margin-left: 10px;
+width: calc(947px - 693px);
+height: 481px;
+}
+.tips h4{
+    color: rgb(88, 87, 87);
+    height: 35px;
+    line-height: 35px;
+    padding-left: 20px;
+    border: solid 1px gainsboro;
+}
+.tips a{
+   float: right;
+  margin-right: 14px;
+    font-size: 12px;
+    font-family: "icomoon";
+    color: rgb(114, 114, 114);
+}
+.tips a:hover{
+    color: rgb(221, 27, 27);
+}
+.tips ul{
+  border: 1px solid gainsboro;
+}
+.tips li{
+    padding-left: 20px;
+    list-style: none;
+    font-size: 12px;
+    color:rgb(134, 134, 134);
+    height: 24px;
+    line-height: 24px;
+    width: 214px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.tips li:hover{
+    color:  rgb(221, 27, 27);
+}
+.tips li::before{
+    display: inline-block;
+    content: "热门";
+    left: 0;
+    font-size: 12px;
+    color: rgb(221, 27, 27);
+    background-color: rgb(238, 237, 237);
+    height: 15px;
+    line-height: 15px;
+    width: 35px;
+    text-align: center;
+}
+.tips table{
+    margin-top: 0;
+    width: 100%;
+    border: gainsboro solid 1px;
+}
+.tips td{
+    text-align: center;
+    font-family: "icomoon";
+    font-size: 30px;
+    color: rgb(221, 27, 27);
+    width: 25px;
+    height: 78px;
+    line-height: 78px;
+   border-right: solid 1px gainsboro;
+   border-bottom: 1px solid gainsboro;
+   border-collapse: collapse;
+}
+.tips tr td:nth-of-type(4n){
+    border-bottom: solid 1px gainsboro;
+    border-right: 0;
+}
+.tips tr:nth-child(3n) td{
+    border-bottom:0 ;
+}
+.tips img{
+    width: 100%;
+    margin-top: 5px;
+}
+.recom{
+    width: 80%;
+    height: 160px;
+    margin:10px auto;
+}
+ .life-service{
+     float: left;
+    width: 230px;
+    height: 100%;
+    background-color: rgb(80, 72, 72);
+}
+.life-service td{
+    font-size: 20px;
+    width: calc(230px / 3);
+    height: 79px;
+    font-family: "icomoon";
+    color: rgb(177, 175, 175);
+    border-bottom: solid 1px rgb(136, 136, 136);
+    border-right: solid 1px rgb(136, 136, 136);
+    text-align: center;
+}
+.life-service td:hover{
+    color: aliceblue;
+}
+.life-service td p{
+    font-size: 12px;
+}
+.life-service td:nth-child(3n){
+    border-right: 0;
+}
+.pic-recom{
+    display: inline-block;
+    width: 923px;
+    height: 160px;
+    margin-left: 12px;
+}
+.pic-recom ul{
+    position: relative;
+    height: 160px;
+}
+.pic-recom li{
+    display: inline-block;
+    width: 294px;
+    height: 100%;
+}
+.pic-recom img{
+    width: 100%;
+    height: 100%;
+}
+.pic-recom li:nth-child(2){
+    margin: 0 15px;
+}
+.pic-recom li:nth-child(2)::after{
+    position: absolute;
+    content: "hot";
+    top: 0;
+    right: 3px;
+    width: 40px;
+    text-align: center;
+    background-color:rgb(221, 27, 27);
+    color: rgb(226, 231, 236);
+    border-radius: 5px;
+}
+.pic-recom li:hover{
+  box-shadow:5px 5px  6px rgb(197, 197, 197) ;
+}
+.sidebar{
+    width: 70px;
+    height: 350px;
+    position: absolute;
+    top:20%;
+    right: 0;
+    z-index: 3;
+    background-color: #fff;
+}
+.back{
+    display: none;
+    margin-top: 50px;
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+    color:rgb(221, 27, 27);
+    border-radius: 20px;
+    width: 100%;
+    height: 70px;
+    border: solid 1px gray;
+}
+.back:hover{
+    color: #fff;
+    background-color: rgb(221, 27, 27);
+}
+.sidebar img{
+    width: 100%;
+    height: 100%;
+}
+.leftside{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 400px;
+    width: 80px;
+    height: 90px;
+    z-index: 3;
+    border: solid 1px rgb(221, 27, 27);
+}
+.leftside ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.leftside li{
+    width: 100%;
+    list-style: none;
+    height: 30px;
+    border-bottom: solid 1px rgb(221, 27, 27);
+    background-color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.leftside li:hover{
+    background-color: rgb(221, 27, 27);
+}
+ .leftside .current{
+    background-color:rgb(221, 27, 27) ;
+}
